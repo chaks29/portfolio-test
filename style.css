@@ -1,0 +1,55 @@
+.bg{top: 0px;
+    left:0px;
+    position: absolute;
+    width: 1519px;
+    height: 1000px;
+    flex-basis: auto;
+    z-index: -1;
+}
+
+
+.menu{
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0px;
+    
+
+}
+.intro{
+    position: absolute;
+    top: 250px;
+    right:200px;
+    width: 611px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 1;
+}
+
+.intro2{
+    position: absolute;
+    top: 450px;
+    right: 60px;
+    width: 636px;
+    height: 449px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: League Spartan;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144%;
+}
