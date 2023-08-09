@@ -1,9 +1,14 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 .bg{top: 0px;
     left:0px;
     position: absolute;
     width: 1519px;
     height: 1000px;
-    flex-basis: auto;
+    
     z-index: -1;
 }
 
@@ -53,3 +58,76 @@
     font-weight: 400;
     line-height: 144%;
 }
+
+.skills{
+    position: absolute;
+    top: 1200px;
+        
+}
+
+.tech{
+    right: 700px;
+    top: 1050px;    
+    position: absolute;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0px;
+
+}
+
+.left{
+    left: 550px;    
+    position: absolute;
+    flex-direction: column;
+    display: flex; 
+    
+}
+
+.right{
+    left: 750px;
+    position: absolute;
+    flex-direction: column;
+    display:flex; 
+
+}
+
+.fig{
+    top: 280px;
+    left: 650px;
+    position: absolute;
+}
+
+.link1{
+    top: 1700px;
+    left: 500px;    
+    position: absolute;
+    flex-direction: column;
+    display: flex; 
+    position: absolute;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0px;
+
+}
+
+.link2{
+    top: 1700px;
+    left: 800px;    
+    position: absolute;
+    flex-direction: column;
+    display: flex; 
+    position: absolute;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0px;
+}
+
