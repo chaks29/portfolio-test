@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import ReactDOM from "react-dom/client";
 import './App.css';
 import image from './Portfolio/MacBook Pro 16_ - 1.png';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
